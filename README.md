@@ -34,5 +34,6 @@ The link in the title is for the version 2.4.1, for newer versions see: [Link](h
 	  grep -v digraph | grep -v -e '-image' | awk '{print $1}' | sort | uniq`
 - Save verbose build log
 	- `bitbake -v [package] 2>&1 | tee build.log`
-
+- Check if a pkg is present on the current yocto prj
+	- `bitbake -s | grep <pkg>`
 
