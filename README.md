@@ -37,3 +37,5 @@ The link in the title is for the version 2.4.1, for newer versions see: [Link](h
 - Check if a pkg is present on the current yocto prj
 	- `bitbake -s | grep <pkg>`
 
+
+## [Building recipes](https://wiki.yoctoproject.org/wiki/Building_your_own_recipes_from_first_principles)
